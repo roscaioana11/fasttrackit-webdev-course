@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=“UTF-8”>
+    <meta name="description" content="Fast Track IT homework">
+    <meta name="author" name="Ioana Rosca">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+  </head>
+  <body style="text-align: center;">
+    <nav>
+        <a href="./index.html">Home</a>
+        <br/>
+        <a href="./statistics.html">Statistics</a>
+    </nav>
+    <div>
+      <h1>Sign Up</h1>
+      <p><b><u>Create an account:</u></b></p>
+      <form>
+        <label for="username">Username:</label>
+        <br />
+
+        <input
+          id="username"
+          name="username"
+          type="text"
+          required
+          minlength="3"
+          maxlength="15"
+          pattern="[a-zA-Z0-9]+"
+        />
+        <br />
+
+        <label for="pw">Password:</label>
+        <br />
+
+        <input
+          id="pw"
+          name="pw"
+          type="password"
+          required
+          minlength="8"
+          maxlength="15"
+        />
+        <br />
+        <hr>
+
+        <textarea maxlength="250">Write your text</textarea>
+        <br/>
+
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
