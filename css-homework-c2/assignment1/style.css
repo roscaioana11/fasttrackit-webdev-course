@@ -1,0 +1,27 @@
+.center-table {
+    margin: auto; 
+    height: 1000px; 
+    width: 1000px;
+    text-align: center;
+    font-size: 70px;
+    border: 5px solid black;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+tr {
+    height: 125px;
+    width: 1000px;
+}
+
+tr:nth-child(odd) td:nth-child(even){
+    background-color: rgb(141, 141, 141);
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: rgb(141, 141, 141);
+}
