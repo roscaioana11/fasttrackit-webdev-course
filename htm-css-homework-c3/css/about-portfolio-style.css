@@ -28,7 +28,6 @@ a {
   align-items: center;
   background-color: rgb(243, 242, 242);
   max-width: 500px; 
-  overflow: hidden;
   margin-bottom: 10px;
 }
 
@@ -44,7 +43,7 @@ a {
   position: relative;
   width: 125px;
   height: 125px;
-  border-radius: 100px;
+  border-radius: 50%;
   overflow: hidden;
   border: 1px solid black;
   margin: 15px;
@@ -54,8 +53,6 @@ a {
   position: relative;
   width: 125px;
   height: 125px;
-  border-radius: 100px;
-  overflow: hidden;
 }
 
 .profile-text {
