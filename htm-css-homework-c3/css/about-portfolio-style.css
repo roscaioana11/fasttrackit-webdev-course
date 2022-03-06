@@ -1,0 +1,337 @@
+html {
+  font-size: 62.5%; /* font-size 1em = 10px */
+}
+html,
+body {
+  margin: 30px auto;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: #656a6d;
+}
+
+a {
+  text-decoration:none;
+  color: black;
+}
+
+/* ###ABOUT### profile styles */
+.container {
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 242, 242);
+  max-width: 500px; 
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.profile-container {
+  display: flex;
+  height: 165px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 100px;
+  overflow: hidden;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.profile-picture img {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.profile-text {
+  width: 250px; 
+  height: 100%;
+}
+
+.profile-text h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0 5px 0;
+}
+
+.profile-text h5 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.profile-text .redirrect {
+  font-size: 11px;
+  padding-bottom: 20px;
+}
+
+/* about me styles */
+.about-container {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 210px;
+  margin-top: 20px;
+}
+
+.about-container .about-me {
+  align-items: flex-start;
+  width: 350;
+  padding-left: 5px;
+}
+
+.about-me h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.about-me .redirrect {
+  font-size: 11px;
+  padding-top: 10px;
+}
+
+.about-me .about-text {
+  height: 120px;
+  margin-right: 100px;
+}
+
+.about-text p {
+  height: 50px;
+}
+
+.about-container .experience {
+  width: 150;
+  align-items: flex-end;
+}
+
+.experience h2 {
+  font-size: 15px;
+  margin: 0 0 5px 0;
+}
+
+.experience .box {
+  display: flex;
+  flex-direction: column;
+  margin: 10 0 10 0;
+}
+
+.experience .box .year-company {
+  min-width: 150px;
+}
+
+.experience .box .year-company p {
+  color: #848c90;
+  font-weight: 100;
+  margin: 5 0 5 0;
+}
+
+.experience .box .text h4 {
+  color: black;
+  margin: 0;
+}
+
+/* portfolio styles */
+.portofolio-container {
+  margin-top: 30px;
+}
+
+.portofolio-container .portofolio-text {
+  display: flex;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.portofolio-text .text-left{
+  width: 250px;
+  align-items: flex-start;
+}
+
+.portofolio-text .redirrect {
+  display: flex;
+  width: 250px;
+  align-items: flex-end;
+  justify-content: right;
+  padding: 0 10 10 0;
+}
+
+.portofolio-text h3 {
+  font-size: 15px;
+  margin: 0 0 5px 0;
+}
+
+/* used for portfolio & about pages */
+.portofolio-content {
+  display: flex;
+  padding-top: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.portofolio-content .content {
+  margin: 10 35 20 20;
+}
+
+.portofolio-content .content .icon {
+  width: 24px;
+  background-color: #e2e5e7;
+  border-radius: 5px;
+}
+
+.portofolio-content .image {
+  width: 240px;
+  height: 200px;
+}
+
+.portofolio-content .image img {
+  width: 240px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* ###PORTFOLIO###  */
+.top-container {
+  display: flex;
+  justify-content: center;
+  height: 130px;
+}
+
+.top-container .title-text {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 250px; 
+  height: 100%;
+}
+
+.title-text h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0 5px 0;
+}
+
+.title-text p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+.title-text .redirrect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.middle-container {
+  display: flex;
+  padding-top: 30px;
+  border-radius: 10px;
+  max-height: 320px;
+}
+
+.middle-container .left-side {
+  align-items: flex-start;
+  width: 220px;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 0 0 0 20;
+}
+
+.left-side .left-side-text {
+  padding-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.left-side-text .icon {
+  width: 24px;
+  background-color: #e2e5e7;
+  border-radius: 5px;
+}
+
+.left-side-img {
+  width: 220px; 
+  height: 200px;
+}
+
+.left-side-img img {
+  width: 220px; 
+  height: 200px;
+  border-radius: 10px;
+}
+
+.middle-container .right-side {
+  align-items: flex-end;
+  width: 240px;
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 0 0 0 20;
+}
+
+.right-side .right-side-text {
+  padding-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.right-side-text .icon {
+  width: 24px;
+  background-color: #e2e5e7;
+  border-radius: 5px;
+}
+
+.right-side-img {
+  width: 220px; 
+  height: 200px;
+}
+
+.right-side-img img {
+  width: 220px; 
+  height: 200px;
+  border-radius: 10px;
+}
+
+.bottom-container {
+  display: flex;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
+.bottom-container .bottom-left-side {
+  align-items: flex-start;
+  width: 220px;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 10 0 0 20;
+}
+
+.bottom-container .bottom-right-side {
+  align-items: flex-end;
+  width: 220px;
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10 0 0 20;
+}
