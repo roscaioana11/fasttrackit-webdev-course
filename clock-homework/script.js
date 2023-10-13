@@ -75,6 +75,7 @@ function rotateWatchHands(handHour, handMinutes, handSeconds) {
 }
 
 function countingForStopwatch() {
+    // ruleaza la fiecare secunda
     interval = setInterval( () => {
         secondsStopwatch++;
 
